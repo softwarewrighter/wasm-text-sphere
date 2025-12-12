@@ -1,6 +1,8 @@
 # WASM Text Sphere
 
-A 3D web application rendering a sphere with orbiting text, built entirely in Rust and compiled to WebAssembly. No JavaScript, TypeScript, Python, or Rust UI frameworks.
+A 3D web application rendering a sphere with orbiting text, built entirely in Rust (2024 Edition) and compiled to WebAssembly. No JavaScript, TypeScript, Python, or Rust UI frameworks.
+
+![Screenshot](images/screenshot.png?ts=1734050820000)
 
 ## Features
 
@@ -43,10 +45,8 @@ cargo install wasm-pack
 # Build the WASM module
 wasm-pack build --target web --out-dir www/pkg
 
-# Serve the www directory
-# Any static file server works, e.g.:
-python3 -m http.server -d www 8080
-# Or use a Rust-based server like miniserve
+# Serve the www directory (use any static file server)
+basic-http-server -a 0.0.0.0:8080 www
 ```
 
 ### Run

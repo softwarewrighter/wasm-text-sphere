@@ -3,7 +3,7 @@
 ## Phase 1: Project Setup
 
 ### 1.1 Cargo Configuration
-- [ ] Update Cargo.toml with correct edition (2021)
+- [x] Update Cargo.toml with correct edition (2024)
 - [ ] Add wasm-bindgen, web-sys, js-sys dependencies
 - [ ] Configure web-sys features for WebGL
 - [ ] Set up crate-type for cdylib
