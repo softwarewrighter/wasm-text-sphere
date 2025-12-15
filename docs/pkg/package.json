@@ -1,0 +1,17 @@
+{
+  "name": "wasm-text-sphere",
+  "type": "module",
+  "description": "3D sphere with orbiting text rendered in WebGL via Rust/WASM",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "wasm_text_sphere_bg.wasm",
+    "wasm_text_sphere.js",
+    "wasm_text_sphere.d.ts"
+  ],
+  "main": "wasm_text_sphere.js",
+  "types": "wasm_text_sphere.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

@@ -57,15 +57,6 @@ basic-http-server -a 0.0.0.0:8080 www
 
 Open `http://localhost:8080` in your browser.
 
-### Build for GitHub Pages
-
-```bash
-# Build and prepare docs/ directory for GitHub Pages
-./build-gh-pages.sh
-```
-
-This creates the `docs/` directory with all static files ready for GitHub Pages deployment.
-
 ## Project Structure
 
 ```
