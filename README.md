@@ -1,4 +1,4 @@
-# WASM Text Sphere
+# WASM Text Sphere (WebGL)
 
 A 3D web application rendering a sphere with orbiting text, built entirely in Rust (2024 Edition) and compiled to WebAssembly. No JavaScript, TypeScript, Python, or Rust UI frameworks.
 
@@ -21,7 +21,7 @@ A 3D web application rendering a sphere with orbiting text, built entirely in Ru
 
 ## Live Demo
 
-[**View Live Demo**](https://softwarewrighter.github.io/wasm-text-sphere/)
+[**View Live Demo**](https://softwarewrighter.github.io/wasm-text-sphere/)  <also: [YouTube Comparison Video](https://www.youtube.com/watch?v=B0z5Plhw9lI&t=206s) >
 
 ## Documentation
 
